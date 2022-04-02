@@ -1,1 +1,71 @@
-Hello World
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chris Bailey</title>
+        <style>
+          html,
+          body{color:#fff;margin:1rem;padding:0}
+          html{font-family:Montserrat,"Helvetica Neue","Segoe UI",Helvetica,Arial,sans-serif;font-size:16px;overflow-y:auto}
+          a{-webkit-transition:color 0.2s ease-out;-moz-transition:color 0.2s ease-out;transition:color 0.2s ease-out;color:rgb(98, 60, 60)}
+          h1{font-size:9rem}
+          h2{font-size:3rem;font-weight:normal}
+          @media screen and (max-width: 992px)
+          {h1{font-size:15vw}h2{font-size:2.5rem}}
+          img.portrait{box-sizing:border-box;border-radius:50%;border:10px solid #fff;margin:2em 3em;width:100%;height:auto;max-width:300px;max-height:300px}
+          .column{flex:2}
+          main{display:flex;margin-top:20vh}
+          main .column.left{text-align:end; flex-grow: 1}
+          main .column.right p{margin-right: 200px}
+          main .column.right h2{margin-left:-4px;margin-top:40}
+          main .column.right .links{margin-top:2.5rem;font-size:1.5rem}
+          main .column.right .links a{margin-right:1rem;text-decoration:none;}
+          @media screen and (max-width: 992px)
+          {
+              main{flex-direction:column;margin-top:0}
+              main .column.left{text-align:center}
+              main .column.right h1{margin-top:0}
+              main img.portrait{margin:0}
+          }
+          footer{display:flex;margin-top:3rem;font-size:0.75rem}
+          @media screen and (max-width: 992px){footer{flex-direction:column}}
+        </style>
+            <style>
+                body {
+                    color: #2d2d2d !important;
+                    background-color: #fffaf7 !important;
+                }
+                a {
+                    color: #3b2323!important;
+                }
+                a:hover {
+                    color: rgb(47, 39, 64) !important;
+                }
+            </style>
+        
+    </head>
+    <body>
+        <main>
+            <div class="column left">
+                <img src="images/giraffe.jpg" class="portrait" alt="Portrait"/>
+            </div>
+            <div class="column right">
+                <h2>Chris Bailey</h2>
+                <p>
+                    <p>
+                        I am a 2L at the University of Illinois. At present, I am investigating the application of computer science to the theory and practice of law. I can be contacted on twitter or by email (ammkrn at tuta dot io), and some of my work can be found on my github profile. Other projects (some of which I have contributed to) that I have found inspiring and feel are worthy of your time include Metamath Zero, the Lean and Rust programming languages, and Pijul. In the legal realm, the Free Law Project is outstanding; if you use PACER, please consider installing the Free Law Project's RECAP extension.
+                    </p>
+                </p>
+                    <div class="links">
+                            <a href="https:&#x2F;&#x2F;github.com/ammkrn" title="GitHub">
+                                [GitHub]
+                            </a>
+                            <a href="https:&#x2F;&#x2F;twitter.com/ammkrn" title="Twitter">
+                                [Twitter]
+                            </a>
+                    </div>
+            </div>
+        </main>
+    </body>
+</html>
